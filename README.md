@@ -16,7 +16,7 @@ On Appcelerator 4.0 and 4.1.0 there's an issue with the Facebook module on iPhon
 
 In the distribution I created, I'm using platform version 4.1.0.
 
-The distribution file is in the dist folder.
+The distribution file is in the distro folder.
 
 Getting Started
 ---------------
