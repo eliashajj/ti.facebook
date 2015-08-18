@@ -10,6 +10,14 @@ The Facebook module is used for connecting your application with Facebook. This 
 * Posting send request dialogs
 * Like button
 
+Bug Fix
+--------
+On Appcelerator 4.0 and 4.1.0 there's an issue with the Facebook module on iPhone. The path is "TITANIUM_SDK = ~/Library/Application Support/Titanium/mobilesdk/osx/4.0.0" instead of "TITANIUM_SDK = ~/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA" and "TITANIUM_SDK = ~/Library/Application Support/Titanium/mobilesdk/osx/4.1.0" instead of "TITANIUM_SDK = ~/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA".
+
+In the distribution I created, I'm using platform version 4.1.0.
+
+The distribution file is in the dist folder.
+
 Getting Started
 ---------------
 Note that this module is only available for Release 4.0.0 and later, and is included with the Titanium SDK. You do not need to download or unpack it.
